@@ -1,0 +1,6 @@
+.wrapper{
+    height:calc(100% - 2px) !Important;
+}
+html,body{
+    height:100%;
+}

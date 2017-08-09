@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.pagewrapper{
+    position: relative;
+    margin:10px;
+    width:200px;
+    height:20px;
+}
+.dropdownbox{
+    text-align: center;
+    width:200px;
+    height:20px;
+    border:2px solid black;
+    cursor: pointer;
+}
+.arrow {
+    float: right;
+    margin-right: 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    transform: rotate(45deg);
+    width: 8px;
+    height: 8px;
+    margin-top: 3px;
+}
+.menu{
+    border-bottom: 2px solid black;
+    position: absolute;
+    top:105%;
+    left:0;
+}
+.listitems{
+    background-color: #5890e6;
+    color:white;
+    text-align: center;
+    box-sizing: border-box;
+    width:203px;
+    padding:3px 10px;
+    list-style-type: none;
+    border:2px solid black;
+    border-bottom: none;
+    cursor: pointer;
+}
+.listitems:hover{
+    background-color: #414ae6;
+}

@@ -1,0 +1,45 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+.popup{
+    position:absolute;
+    width:40%;
+    height:150px;
+    left:30%;
+    z-index: 1000;
+    background-color:#ffffff;
+    padding:30px 15px 15px 15px;
+}
+.inputWrapper{
+    width:300px;
+    margin:0 auto;
+}
+.popup_button{
+    padding: 10px 55px;
+    font-size: 16px;
+    background-color: #1AD372;
+    color: #FFF;
+    border-radius: 5px;
+    border:0;
+    margin-left:30%;
+    margin-top:20px;
+}
+.inputTitleBox{
+    width:230px;
+}
+.closePopup{
+    text-decoration: none;
+    position:absolute;
+    top:5px;
+    right:15px;
+    font-size: 30px;
+    cursor: pointer;
+}
